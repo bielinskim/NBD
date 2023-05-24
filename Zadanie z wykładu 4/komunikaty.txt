@@ -1,0 +1,3 @@
+{u'age': 30, u'name': u'Mateusz'}
+{u'age': 30, u'name': u'MateuszAA'}
+None
