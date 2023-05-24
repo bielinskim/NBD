@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+X-Riak-Vclock: a85hYGBgzGDKBVI8+xkWvi9O/+TFwKAumMGUyJjHyjDD8sFdviwA
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Link: </buckets/s26752>; rel="up"
+Last-Modified: Mon, 22 May 2023 19:08:08 GMT
+ETag: "5bMdXr7zzvRX98S8ZrVto7"
+Date: Mon, 22 May 2023 19:27:53 GMT
+Content-Type: application/json
+Content-Length: 83
+
+'{title:Władca Pierścieni,author:J.R.R. Tolkien,pagesNumber:1178,Hardcover:true}'

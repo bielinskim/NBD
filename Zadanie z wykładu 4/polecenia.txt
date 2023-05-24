@@ -1,0 +1,37 @@
+1.
+curl -i -X POST http://localhost:8098/buckets/s26752/keys -d '{"title":"Władca Pierścieni","author":"J.R.R. Tolkien","pagesNumber":1178,"Hardcover":true}' -H "Content-Type: application/json"
+
+curl -i -X POST http://localhost:8098/buckets/s26752/keys -d '{"title":"Zabić drozda","author":"Harper Lee","pagesNumber":324,"Hardcover":false}' -H "Content-Type: application/json"
+
+curl -i -X POST http://localhost:8098/buckets/s26752/keys -d '{"title":"Sto lat samotności","author":"Gabriel Garcia Marquez","pagesNumber":432,"Hardcover":true}' -H "Content-Type: application/json"
+
+curl -i -X POST http://localhost:8098/buckets/s26752/keys -d '{"title":"Harry Potter i Kamień Filozoficzny","author":"J.K. Rowling","pagesNumber":223,"Hardcover":false}' -H "Content-Type: application/json"
+
+curl -i -X POST http://localhost:8098/buckets/s26752/keys -d '{"title":"1984","author":"George Orwell","pagesNumber":328,"Hardcover":true}' -H "Content-Type: application/json"
+
+2.
+curl -i http://localhost:8098/buckets/s26752/keys/Q8PWZpH17djkZV0UYa7vnekmEUI
+
+3.
+curl -i -X PUT http://localhost:8098/buckets/s26752/keys/Q8PWZpH17djkZV0UYa7vnekmEUI -d '{"title":"Władca Pierścieni","author":"J.R.R. Tolkien","pagesNumber":1178,"Hardcover":true,"publishedYear":1954}' -H "Content-Type: application/json"
+
+4.
+curl -i -X PUT http://localhost:8098/buckets/s26752/keys/Q8PWZpH17djkZV0UYa7vnekmEUI -d '{"title":"Władca Pierścieni","author":"J.R.R. Tolkien","pagesNumber":1178,"Hardcover":true}' -H "Content-Type: application/json"
+
+5.
+curl -i -X PUT http://localhost:8098/buckets/s26752/keys/Q8PWZpH17djkZV0UYa7vnekmEUI -d '{"title":"Władca Pierścieni","author":"J.R.R. Tolkien","pagesNumber":1178,"Hardcover":false}' -H "Content-Type: application/json"
+
+6.
+curl -i -X DELETE http://localhost:8098/buckets/s26752/keys/Q8PWZpH17djkZV0UYa7vnekmEUI
+
+7.
+curl -i http://localhost:8098/buckets/s26752/keys/Q8PWZpH17djkZV0UYa7vnekmEUI
+
+8.
+curl -i -X POST http://localhost:8098/buckets/s26752/keys -d '{"first_name":"Mateusz"}' -H "Content-Type: application/json"
+
+9.
+curl -i http://localhost:8098/buckets/s26752/keys/OsEDIEVvgKg7E4qSh2vNjTX4eIt
+
+10.
+curl -i -X DELETE http://localhost:8098/buckets/s26752/keys/OsEDIEVvgKg7E4qSh2vNjTX4eIt
