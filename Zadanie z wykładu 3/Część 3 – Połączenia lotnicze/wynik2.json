@@ -1,0 +1,652 @@
+﻿[
+  {
+    "Airport": {
+      "identity": 3,
+      "labels": [
+        "Airport"
+      ],
+      "properties": {
+        "name": "SAT"
+      },
+      "elementId": "3"
+    },
+    "Flights": 1
+  },
+  {
+    "Airport": {
+      "identity": 6,
+      "labels": [
+        "Airport"
+      ],
+      "properties": {
+        "name": "FLL"
+      },
+      "elementId": "6"
+    },
+    "Flights": 1
+  },
+  {
+    "Airport": {
+      "identity": 9,
+      "labels": [
+        "Airport"
+      ],
+      "properties": {
+        "name": "KOA"
+      },
+      "elementId": "9"
+    },
+    "Flights": 1
+  },
+  {
+    "Airport": {
+      "identity": 13,
+      "labels": [
+        "Airport"
+      ],
+      "properties": {
+        "name": "SMF"
+      },
+      "elementId": "13"
+    },
+    "Flights": 1
+  },
+  {
+    "Airport": {
+      "identity": 14,
+      "labels": [
+        "Airport"
+      ],
+      "properties": {
+        "name": "RIC"
+      },
+      "elementId": "14"
+    },
+    "Flights": 1
+  },
+  {
+    "Airport": {
+      "identity": 15,
+      "labels": [
+        "Airport"
+      ],
+      "properties": {
+        "name": "IND"
+      },
+      "elementId": "15"
+    },
+    "Flights": 1
+  },
+  {
+    "Airport": {
+      "identity": 20,
+      "labels": [
+        "Airport"
+      ],
+      "properties": {
+        "name": "MCI"
+      },
+      "elementId": "20"
+    },
+    "Flights": 1
+  },
+  {
+    "Airport": {
+      "identity": 21,
+      "labels": [
+        "Airport"
+      ],
+      "properties": {
+        "name": "MSN"
+      },
+      "elementId": "21"
+    },
+    "Flights": 1
+  },
+  {
+    "Airport": {
+      "identity": 30,
+      "labels": [
+        "Airport"
+      ],
+      "properties": {
+        "name": "BIL"
+      },
+      "elementId": "30"
+    },
+    "Flights": 1
+  },
+  {
+    "Airport": {
+      "identity": 32,
+      "labels": [
+        "Airport"
+      ],
+      "properties": {
+        "name": "ROC"
+      },
+      "elementId": "32"
+    },
+    "Flights": 1
+  },
+  {
+    "Airport": {
+      "identity": 33,
+      "labels": [
+        "Airport"
+      ],
+      "properties": {
+        "name": "CLT"
+      },
+      "elementId": "33"
+    },
+    "Flights": 1
+  },
+  {
+    "Airport": {
+      "identity": 34,
+      "labels": [
+        "Airport"
+      ],
+      "properties": {
+        "name": "DCA"
+      },
+      "elementId": "34"
+    },
+    "Flights": 1
+  },
+  {
+    "Airport": {
+      "identity": 38,
+      "labels": [
+        "Airport"
+      ],
+      "properties": {
+        "name": "PBI"
+      },
+      "elementId": "38"
+    },
+    "Flights": 1
+  },
+  {
+    "Airport": {
+      "identity": 39,
+      "labels": [
+        "Airport"
+      ],
+      "properties": {
+        "name": "MIA"
+      },
+      "elementId": "39"
+    },
+    "Flights": 1
+  },
+  {
+    "Airport": {
+      "identity": 45,
+      "labels": [
+        "Airport"
+      ],
+      "properties": {
+        "name": "MOB"
+      },
+      "elementId": "45"
+    },
+    "Flights": 1
+  },
+  {
+    "Airport": {
+      "identity": 22,
+      "labels": [
+        "Airport"
+      ],
+      "properties": {
+        "name": "SNA"
+      },
+      "elementId": "22"
+    },
+    "Flights": 2
+  },
+  {
+    "Airport": {
+      "identity": 25,
+      "labels": [
+        "Airport"
+      ],
+      "properties": {
+        "name": "LAS"
+      },
+      "elementId": "25"
+    },
+    "Flights": 2
+  },
+  {
+    "Airport": {
+      "identity": 26,
+      "labels": [
+        "Airport"
+      ],
+      "properties": {
+        "name": "ATL"
+      },
+      "elementId": "26"
+    },
+    "Flights": 2
+  },
+  {
+    "Airport": {
+      "identity": 27,
+      "labels": [
+        "Airport"
+      ],
+      "properties": {
+        "name": "CMH"
+      },
+      "elementId": "27"
+    },
+    "Flights": 2
+  },
+  {
+    "Airport": {
+      "identity": 28,
+      "labels": [
+        "Airport"
+      ],
+      "properties": {
+        "name": "SJC"
+      },
+      "elementId": "28"
+    },
+    "Flights": 2
+  },
+  {
+    "Airport": {
+      "identity": 31,
+      "labels": [
+        "Airport"
+      ],
+      "properties": {
+        "name": "LGA"
+      },
+      "elementId": "31"
+    },
+    "Flights": 2
+  },
+  {
+    "Airport": {
+      "identity": 42,
+      "labels": [
+        "Airport"
+      ],
+      "properties": {
+        "name": "TUS"
+      },
+      "elementId": "42"
+    },
+    "Flights": 2
+  },
+  {
+    "Airport": {
+      "identity": 29,
+      "labels": [
+        "Airport"
+      ],
+      "properties": {
+        "name": "PHX"
+      },
+      "elementId": "29"
+    },
+    "Flights": 3
+  },
+  {
+    "Airport": {
+      "identity": 0,
+      "labels": [
+        "Airport"
+      ],
+      "properties": {
+        "name": "SEA"
+      },
+      "elementId": "0"
+    },
+    "Flights": 3
+  },
+  {
+    "Airport": {
+      "identity": 46,
+      "labels": [
+        "Airport"
+      ],
+      "properties": {
+        "name": "SBN"
+      },
+      "elementId": "46"
+    },
+    "Flights": 3
+  },
+  {
+    "Airport": {
+      "identity": 16,
+      "labels": [
+        "Airport"
+      ],
+      "properties": {
+        "name": "BOS"
+      },
+      "elementId": "16"
+    },
+    "Flights": 4
+  },
+  {
+    "Airport": {
+      "identity": 18,
+      "labels": [
+        "Airport"
+      ],
+      "properties": {
+        "name": "DFW"
+      },
+      "elementId": "18"
+    },
+    "Flights": 4
+  },
+  {
+    "Airport": {
+      "identity": 24,
+      "labels": [
+        "Airport"
+      ],
+      "properties": {
+        "name": "SAN"
+      },
+      "elementId": "24"
+    },
+    "Flights": 4
+  },
+  {
+    "Airport": {
+      "identity": 35,
+      "labels": [
+        "Airport"
+      ],
+      "properties": {
+        "name": "BHM"
+      },
+      "elementId": "35"
+    },
+    "Flights": 4
+  },
+  {
+    "Airport": {
+      "identity": 37,
+      "labels": [
+        "Airport"
+      ],
+      "properties": {
+        "name": "CVG"
+      },
+      "elementId": "37"
+    },
+    "Flights": 4
+  },
+  {
+    "Airport": {
+      "identity": 40,
+      "labels": [
+        "Airport"
+      ],
+      "properties": {
+        "name": "ABQ"
+      },
+      "elementId": "40"
+    },
+    "Flights": 4
+  },
+  {
+    "Airport": {
+      "identity": 41,
+      "labels": [
+        "Airport"
+      ],
+      "properties": {
+        "name": "FAT"
+      },
+      "elementId": "41"
+    },
+    "Flights": 4
+  },
+  {
+    "Airport": {
+      "identity": 43,
+      "labels": [
+        "Airport"
+      ],
+      "properties": {
+        "name": "DLH"
+      },
+      "elementId": "43"
+    },
+    "Flights": 4
+  },
+  {
+    "Airport": {
+      "identity": 4,
+      "labels": [
+        "Airport"
+      ],
+      "properties": {
+        "name": "MCO"
+      },
+      "elementId": "4"
+    },
+    "Flights": 4
+  },
+  {
+    "Airport": {
+      "identity": 10,
+      "labels": [
+        "Airport"
+      ],
+      "properties": {
+        "name": "PDX"
+      },
+      "elementId": "10"
+    },
+    "Flights": 4
+  },
+  {
+    "Airport": {
+      "identity": 19,
+      "labels": [
+        "Airport"
+      ],
+      "properties": {
+        "name": "SLC"
+      },
+      "elementId": "19"
+    },
+    "Flights": 5
+  },
+  {
+    "Airport": {
+      "identity": 23,
+      "labels": [
+        "Airport"
+      ],
+      "properties": {
+        "name": "HNL"
+      },
+      "elementId": "23"
+    },
+    "Flights": 5
+  },
+  {
+    "Airport": {
+      "identity": 44,
+      "labels": [
+        "Airport"
+      ],
+      "properties": {
+        "name": "FSD"
+      },
+      "elementId": "44"
+    },
+    "Flights": 5
+  },
+  {
+    "Airport": {
+      "identity": 1,
+      "labels": [
+        "Airport"
+      ],
+      "properties": {
+        "name": "EWR"
+      },
+      "elementId": "1"
+    },
+    "Flights": 7
+  },
+  {
+    "Airport": {
+      "identity": 49,
+      "labels": [
+        "Airport"
+      ],
+      "properties": {
+        "name": "MOT"
+      },
+      "elementId": "49"
+    },
+    "Flights": 8
+  },
+  {
+    "Airport": {
+      "identity": 8,
+      "labels": [
+        "Airport"
+      ],
+      "properties": {
+        "name": "MSP"
+      },
+      "elementId": "8"
+    },
+    "Flights": 9
+  },
+  {
+    "Airport": {
+      "identity": 12,
+      "labels": [
+        "Airport"
+      ],
+      "properties": {
+        "name": "IAD"
+      },
+      "elementId": "12"
+    },
+    "Flights": 12
+  },
+  {
+    "Airport": {
+      "identity": 36,
+      "labels": [
+        "Airport"
+      ],
+      "properties": {
+        "name": "BNA"
+      },
+      "elementId": "36"
+    },
+    "Flights": 12
+  },
+  {
+    "Airport": {
+      "identity": 47,
+      "labels": [
+        "Airport"
+      ],
+      "properties": {
+        "name": "AZO"
+      },
+      "elementId": "47"
+    },
+    "Flights": 13
+  },
+  {
+    "Airport": {
+      "identity": 11,
+      "labels": [
+        "Airport"
+      ],
+      "properties": {
+        "name": "SFO"
+      },
+      "elementId": "11"
+    },
+    "Flights": 14
+  },
+  {
+    "Airport": {
+      "identity": 17,
+      "labels": [
+        "Airport"
+      ],
+      "properties": {
+        "name": "DEN"
+      },
+      "elementId": "17"
+    },
+    "Flights": 18
+  },
+  {
+    "Airport": {
+      "identity": 5,
+      "labels": [
+        "Airport"
+      ],
+      "properties": {
+        "name": "LAX"
+      },
+      "elementId": "5"
+    },
+    "Flights": 22
+  },
+  {
+    "Airport": {
+      "identity": 2,
+      "labels": [
+        "Airport"
+      ],
+      "properties": {
+        "name": "IAH"
+      },
+      "elementId": "2"
+    },
+    "Flights": 23
+  },
+  {
+    "Airport": {
+      "identity": 48,
+      "labels": [
+        "Airport"
+      ],
+      "properties": {
+        "name": "DTW"
+      },
+      "elementId": "48"
+    },
+    "Flights": 25
+  },
+  {
+    "Airport": {
+      "identity": 7,
+      "labels": [
+        "Airport"
+      ],
+      "properties": {
+        "name": "ORD"
+      },
+      "elementId": "7"
+    },
+    "Flights": 48
+  }
+]

@@ -1,0 +1,410 @@
+﻿[
+  {
+    "aktor": "Keanu Reeves",
+    "ilosc_filmow": 7
+  },
+  {
+    "aktor": "Carrie-Anne Moss",
+    "ilosc_filmow": 3
+  },
+  {
+    "aktor": "Laurence Fishburne",
+    "ilosc_filmow": 3
+  },
+  {
+    "aktor": "Hugo Weaving",
+    "ilosc_filmow": 5
+  },
+  {
+    "aktor": "Emil Eifrem",
+    "ilosc_filmow": 1
+  },
+  {
+    "aktor": "Charlize Theron",
+    "ilosc_filmow": 2
+  },
+  {
+    "aktor": "Al Pacino",
+    "ilosc_filmow": 1
+  },
+  {
+    "aktor": "Tom Cruise",
+    "ilosc_filmow": 3
+  },
+  {
+    "aktor": "Jack Nicholson",
+    "ilosc_filmow": 5
+  },
+  {
+    "aktor": "Demi Moore",
+    "ilosc_filmow": 1
+  },
+  {
+    "aktor": "Kevin Bacon",
+    "ilosc_filmow": 3
+  },
+  {
+    "aktor": "Kiefer Sutherland",
+    "ilosc_filmow": 2
+  },
+  {
+    "aktor": "Noah Wyle",
+    "ilosc_filmow": 1
+  },
+  {
+    "aktor": "Cuba Gooding Jr.",
+    "ilosc_filmow": 4
+  },
+  {
+    "aktor": "Kevin Pollak",
+    "ilosc_filmow": 1
+  },
+  {
+    "aktor": "J.T. Walsh",
+    "ilosc_filmow": 2
+  },
+  {
+    "aktor": "James Marshall",
+    "ilosc_filmow": 1
+  },
+  {
+    "aktor": "Christopher Guest",
+    "ilosc_filmow": 1
+  },
+  {
+    "aktor": "Aaron Sorkin",
+    "ilosc_filmow": 1
+  },
+  {
+    "aktor": "Kelly McGillis",
+    "ilosc_filmow": 1
+  },
+  {
+    "aktor": "Val Kilmer",
+    "ilosc_filmow": 1
+  },
+  {
+    "aktor": "Anthony Edwards",
+    "ilosc_filmow": 1
+  },
+  {
+    "aktor": "Tom Skerritt",
+    "ilosc_filmow": 1
+  },
+  {
+    "aktor": "Meg Ryan",
+    "ilosc_filmow": 5
+  },
+  {
+    "aktor": "Renee Zellweger",
+    "ilosc_filmow": 1
+  },
+  {
+    "aktor": "Kelly Preston",
+    "ilosc_filmow": 1
+  },
+  {
+    "aktor": "Jerry O'Connell",
+    "ilosc_filmow": 2
+  },
+  {
+    "aktor": "Jay Mohr",
+    "ilosc_filmow": 1
+  },
+  {
+    "aktor": "Bonnie Hunt",
+    "ilosc_filmow": 2
+  },
+  {
+    "aktor": "Regina King",
+    "ilosc_filmow": 1
+  },
+  {
+    "aktor": "Jonathan Lipnicki",
+    "ilosc_filmow": 1
+  },
+  {
+    "aktor": "River Phoenix",
+    "ilosc_filmow": 1
+  },
+  {
+    "aktor": "Corey Feldman",
+    "ilosc_filmow": 1
+  },
+  {
+    "aktor": "Wil Wheaton",
+    "ilosc_filmow": 1
+  },
+  {
+    "aktor": "John Cusack",
+    "ilosc_filmow": 1
+  },
+  {
+    "aktor": "Marshall Bell",
+    "ilosc_filmow": 2
+  },
+  {
+    "aktor": "Helen Hunt",
+    "ilosc_filmow": 3
+  },
+  {
+    "aktor": "Greg Kinnear",
+    "ilosc_filmow": 2
+  },
+  {
+    "aktor": "Annabella Sciorra",
+    "ilosc_filmow": 1
+  },
+  {
+    "aktor": "Max von Sydow",
+    "ilosc_filmow": 2
+  },
+  {
+    "aktor": "Werner Herzog",
+    "ilosc_filmow": 1
+  },
+  {
+    "aktor": "Robin Williams",
+    "ilosc_filmow": 3
+  },
+  {
+    "aktor": "Ethan Hawke",
+    "ilosc_filmow": 1
+  },
+  {
+    "aktor": "Rick Yune",
+    "ilosc_filmow": 2
+  },
+  {
+    "aktor": "James Cromwell",
+    "ilosc_filmow": 2
+  },
+  {
+    "aktor": "Parker Posey",
+    "ilosc_filmow": 1
+  },
+  {
+    "aktor": "Dave Chappelle",
+    "ilosc_filmow": 1
+  },
+  {
+    "aktor": "Steve Zahn",
+    "ilosc_filmow": 2
+  },
+  {
+    "aktor": "Tom Hanks",
+    "ilosc_filmow": 12
+  },
+  {
+    "aktor": "Rita Wilson",
+    "ilosc_filmow": 1
+  },
+  {
+    "aktor": "Bill Pullman",
+    "ilosc_filmow": 1
+  },
+  {
+    "aktor": "Victor Garber",
+    "ilosc_filmow": 1
+  },
+  {
+    "aktor": "Rosie O'Donnell",
+    "ilosc_filmow": 2
+  },
+  {
+    "aktor": "Nathan Lane",
+    "ilosc_filmow": 2
+  },
+  {
+    "aktor": "Billy Crystal",
+    "ilosc_filmow": 1
+  },
+  {
+    "aktor": "Carrie Fisher",
+    "ilosc_filmow": 1
+  },
+  {
+    "aktor": "Bruno Kirby",
+    "ilosc_filmow": 1
+  },
+  {
+    "aktor": "Liv Tyler",
+    "ilosc_filmow": 1
+  },
+  {
+    "aktor": "Brooke Langton",
+    "ilosc_filmow": 1
+  },
+  {
+    "aktor": "Gene Hackman",
+    "ilosc_filmow": 3
+  },
+  {
+    "aktor": "Orlando Jones",
+    "ilosc_filmow": 1
+  },
+  {
+    "aktor": "Christian Bale",
+    "ilosc_filmow": 1
+  },
+  {
+    "aktor": "Zach Grenier",
+    "ilosc_filmow": 2
+  },
+  {
+    "aktor": "Richard Harris",
+    "ilosc_filmow": 1
+  },
+  {
+    "aktor": "Clint Eastwood",
+    "ilosc_filmow": 1
+  },
+  {
+    "aktor": "Takeshi Kitano",
+    "ilosc_filmow": 1
+  },
+  {
+    "aktor": "Dina Meyer",
+    "ilosc_filmow": 1
+  },
+  {
+    "aktor": "Ice-T",
+    "ilosc_filmow": 1
+  },
+  {
+    "aktor": "Halle Berry",
+    "ilosc_filmow": 1
+  },
+  {
+    "aktor": "Jim Broadbent",
+    "ilosc_filmow": 1
+  },
+  {
+    "aktor": "Ian McKellen",
+    "ilosc_filmow": 1
+  },
+  {
+    "aktor": "Audrey Tautou",
+    "ilosc_filmow": 1
+  },
+  {
+    "aktor": "Paul Bettany",
+    "ilosc_filmow": 1
+  },
+  {
+    "aktor": "Natalie Portman",
+    "ilosc_filmow": 1
+  },
+  {
+    "aktor": "Stephen Rea",
+    "ilosc_filmow": 1
+  },
+  {
+    "aktor": "John Hurt",
+    "ilosc_filmow": 1
+  },
+  {
+    "aktor": "Ben Miles",
+    "ilosc_filmow": 3
+  },
+  {
+    "aktor": "Emile Hirsch",
+    "ilosc_filmow": 1
+  },
+  {
+    "aktor": "John Goodman",
+    "ilosc_filmow": 1
+  },
+  {
+    "aktor": "Susan Sarandon",
+    "ilosc_filmow": 1
+  },
+  {
+    "aktor": "Matthew Fox",
+    "ilosc_filmow": 1
+  },
+  {
+    "aktor": "Christina Ricci",
+    "ilosc_filmow": 1
+  },
+  {
+    "aktor": "Rain",
+    "ilosc_filmow": 2
+  },
+  {
+    "aktor": "Naomie Harris",
+    "ilosc_filmow": 1
+  },
+  {
+    "aktor": "Michael Clarke Duncan",
+    "ilosc_filmow": 1
+  },
+  {
+    "aktor": "David Morse",
+    "ilosc_filmow": 1
+  },
+  {
+    "aktor": "Sam Rockwell",
+    "ilosc_filmow": 2
+  },
+  {
+    "aktor": "Gary Sinise",
+    "ilosc_filmow": 2
+  },
+  {
+    "aktor": "Patricia Clarkson",
+    "ilosc_filmow": 1
+  },
+  {
+    "aktor": "Frank Langella",
+    "ilosc_filmow": 1
+  },
+  {
+    "aktor": "Michael Sheen",
+    "ilosc_filmow": 1
+  },
+  {
+    "aktor": "Oliver Platt",
+    "ilosc_filmow": 2
+  },
+  {
+    "aktor": "Danny DeVito",
+    "ilosc_filmow": 2
+  },
+  {
+    "aktor": "John C. Reilly",
+    "ilosc_filmow": 1
+  },
+  {
+    "aktor": "Ed Harris",
+    "ilosc_filmow": 1
+  },
+  {
+    "aktor": "Bill Paxton",
+    "ilosc_filmow": 3
+  },
+  {
+    "aktor": "Philip Seymour Hoffman",
+    "ilosc_filmow": 2
+  },
+  {
+    "aktor": "Diane Keaton",
+    "ilosc_filmow": 1
+  },
+  {
+    "aktor": "Julia Roberts",
+    "ilosc_filmow": 1
+  },
+  {
+    "aktor": "Madonna",
+    "ilosc_filmow": 1
+  },
+  {
+    "aktor": "Geena Davis",
+    "ilosc_filmow": 1
+  },
+  {
+    "aktor": "Lori Petty",
+    "ilosc_filmow": 1
+  }
+]

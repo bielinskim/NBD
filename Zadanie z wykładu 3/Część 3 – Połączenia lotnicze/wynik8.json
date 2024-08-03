@@ -1,0 +1,178 @@
+﻿[
+  {
+    "connection": {
+      "start": {
+        "identity": 21,
+        "labels": [
+          "Airport"
+        ],
+        "properties": {
+          "name": "MSN"
+        },
+        "elementId": "21"
+      },
+      "end": {
+        "identity": 68,
+        "labels": [
+          "Airport"
+        ],
+        "properties": {
+          "name": "GRR"
+        },
+        "elementId": "68"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 21,
+            "labels": [
+              "Airport"
+            ],
+            "properties": {
+              "name": "MSN"
+            },
+            "elementId": "21"
+          },
+          "relationship": {
+            "identity": 250,
+            "start": 271,
+            "end": 21,
+            "type": "ORIGIN",
+            "properties": {
+
+            },
+            "elementId": "250",
+            "startNodeElementId": "271",
+            "endNodeElementId": "21"
+          },
+          "end": {
+            "identity": 271,
+            "labels": [
+              "Flight"
+            ],
+            "properties": {
+              "date": "11/30/2015 05:26:41",
+              "duration": 30,
+              "distance": 108,
+              "airline": "19977"
+            },
+            "elementId": "271"
+          }
+        },
+        {
+          "start": {
+            "identity": 271,
+            "labels": [
+              "Flight"
+            ],
+            "properties": {
+              "date": "11/30/2015 05:26:41",
+              "duration": 30,
+              "distance": 108,
+              "airline": "19977"
+            },
+            "elementId": "271"
+          },
+          "relationship": {
+            "identity": 251,
+            "start": 271,
+            "end": 7,
+            "type": "DESTINATION",
+            "properties": {
+
+            },
+            "elementId": "251",
+            "startNodeElementId": "271",
+            "endNodeElementId": "7"
+          },
+          "end": {
+            "identity": 7,
+            "labels": [
+              "Airport"
+            ],
+            "properties": {
+              "name": "ORD"
+            },
+            "elementId": "7"
+          }
+        },
+        {
+          "start": {
+            "identity": 7,
+            "labels": [
+              "Airport"
+            ],
+            "properties": {
+              "name": "ORD"
+            },
+            "elementId": "7"
+          },
+          "relationship": {
+            "identity": 975,
+            "start": 851,
+            "end": 7,
+            "type": "ORIGIN",
+            "properties": {
+
+            },
+            "elementId": "975",
+            "startNodeElementId": "851",
+            "endNodeElementId": "7"
+          },
+          "end": {
+            "identity": 851,
+            "labels": [
+              "Flight"
+            ],
+            "properties": {
+              "date": "11/17/2015 16:11:47",
+              "duration": 23,
+              "distance": 137,
+              "airline": "20304"
+            },
+            "elementId": "851"
+          }
+        },
+        {
+          "start": {
+            "identity": 851,
+            "labels": [
+              "Flight"
+            ],
+            "properties": {
+              "date": "11/17/2015 16:11:47",
+              "duration": 23,
+              "distance": 137,
+              "airline": "20304"
+            },
+            "elementId": "851"
+          },
+          "relationship": {
+            "identity": 976,
+            "start": 851,
+            "end": 68,
+            "type": "DESTINATION",
+            "properties": {
+
+            },
+            "elementId": "976",
+            "startNodeElementId": "851",
+            "endNodeElementId": "68"
+          },
+          "end": {
+            "identity": 68,
+            "labels": [
+              "Airport"
+            ],
+            "properties": {
+              "name": "GRR"
+            },
+            "elementId": "68"
+          }
+        }
+      ],
+      "length": 4.0
+    },
+    "ticketPrice": 196.5
+  }
+]

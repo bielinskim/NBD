@@ -1,0 +1,29 @@
+2. MATCH paths=(t:town {name:"Darjeeling"})-[*]->(p:peak {name:"Sandakphu"}) RETURN paths
+3.
+MATCH
+  (t:town {name:"Darjeeling"}),
+  (p:peak {name:"Sandakphu"}),
+  paths = allShortestPaths((t)-[*]-(p))
+RETURN paths
+4.
+MATCH
+  (t:town {name:"Darjeeling"}),
+  (p:peak {name:"Sandakphu"}),
+  paths = allShortestPaths((t)-[*]-(p))
+WHERE all(r IN relationships(paths) WHERE r.winter = 'true')
+RETURN paths
+5.
+MATCH paths=(t:town {name:"Darjeeling"})-[*]->(p:peak {name:"Sandakphu"})
+UNWIND relationships(paths) AS r
+RETURN paths, sum(r.distance)
+ORDER BY sum(r.distance)
+6.
+MATCH
+  paths=(t:town {name:"Darjeeling"})-[*]->(p:peak {name:"Sandakphu"})
+WHERE all(r IN relationships(paths) WHERE r.summer = 'true'AND type(r) = 'twowheeler')
+RETURN paths
+7.
+MATCH
+  paths=(t:town {name:"Darjeeling"})-[*]->(a)
+WHERE all(r IN relationships(paths) WHERE r.summer = 'true'AND type(r) = 'twowheeler')
+RETURN a

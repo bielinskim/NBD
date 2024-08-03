@@ -1,0 +1,161 @@
+2.
+MATCH (f:Flight)-[:ORIGIN]->(a:Airport)
+RETURN a AS Airport, count(f) AS Flights
+ORDER BY count(f)
+
+3.
+CALL {
+MATCH connection=(ao:Airport {name: "LAX"})<-[:ORIGIN]-(:Flight)-[:DESTINATION]->(ad:Airport)
+WHERE ad.name <> "LAX"
+RETURN connection, ad
+UNION
+MATCH connection=(ao:Airport {name: "LAX"})<-[:ORIGIN]-(:Flight)-[:DESTINATION]->(p1:Airport)<-[:ORIGIN]-(:Flight)-[:DESTINATION]->(ad:Airport)
+WHERE ad.name <> "LAX" AND p1.name <> "LAX"
+RETURN connection, ad
+UNION
+MATCH connection=(ao:Airport {name: "LAX"})<-[:ORIGIN]-(:Flight)-[:DESTINATION]->(p1:Airport)<-[:ORIGIN]-(:Flight)-[:DESTINATION]->(p2:Airport)<-[:ORIGIN]-(:Flight)-[:DESTINATION]->(ad:Airport)
+WHERE ad.name <> "LAX"  AND p1.name <> "LAX" AND p2.name <> "LAX"
+RETURN connection, ad
+}
+CALL {
+WITH connection
+UNWIND nodes(connection) AS flight
+MATCH (flight:Flight)<-[:ASSIGN]-(ticket:Ticket {class:"economy"})
+WITH connection, sum(ticket.price) as ticketPrice
+RETURN ticketPrice
+UNION
+WITH connection
+UNWIND nodes(connection) AS flight
+MATCH (flight:Flight)<-[:ASSIGN]-(ticket:Ticket {class:"business"})
+WITH connection, sum(ticket.price) as ticketPrice
+RETURN ticketPrice
+UNION
+WITH connection
+UNWIND nodes(connection) AS flight
+MATCH (flight:Flight)<-[:ASSIGN]-(ticket:Ticket {class:"firstClass"})
+WITH connection, sum(ticket.price) as ticketPrice
+RETURN ticketPrice
+}
+WITH ad, ticketPrice
+WHERE ticketPrice < 3000
+RETURN DISTINCT ad
+
+4.
+CALL {
+MATCH connection=(ao:Airport {name: "LAX"})<-[:ORIGIN]-(:Flight)-[:DESTINATION]->(ad:Airport {name: "DAY"})
+RETURN connection, ad
+UNION
+MATCH connection=(ao:Airport {name: "LAX"})<-[:ORIGIN]-(:Flight)-[:DESTINATION]->(p1:Airport)<-[:ORIGIN]-(:Flight)-[:DESTINATION]->(ad:Airport {name: "DAY"})
+RETURN connection, ad
+UNION
+MATCH connection=(ao:Airport {name: "LAX"})<-[:ORIGIN]-(:Flight)-[:DESTINATION]->(p1:Airport)<-[:ORIGIN]-(:Flight)-[:DESTINATION]->(p2:Airport)<-[:ORIGIN]-(:Flight)-[:DESTINATION]->(ad:Airport {name: "DAY"})
+RETURN connection, ad
+}
+CALL {
+WITH connection
+UNWIND nodes(connection) AS flight
+MATCH (flight:Flight)<-[:ASSIGN]-(ticket:Ticket {class:"economy"})
+WITH connection, sum(ticket.price) as ticketPrice
+RETURN ticketPrice
+UNION
+WITH connection
+UNWIND nodes(connection) AS flight
+MATCH (flight:Flight)<-[:ASSIGN]-(ticket:Ticket {class:"business"})
+WITH connection, sum(ticket.price) as ticketPrice
+RETURN ticketPrice
+UNION
+WITH connection
+UNWIND nodes(connection) AS flight
+MATCH (flight:Flight)<-[:ASSIGN]-(ticket:Ticket {class:"firstClass"})
+WITH connection, sum(ticket.price) as ticketPrice
+RETURN ticketPrice
+}
+RETURN connection, ticketPrice
+ORDER BY ticketPrice
+
+5.
+CALL {
+MATCH connection=(ao:Airport {name: "LAX"})<-[:ORIGIN]-(:Flight)-[:DESTINATION]->(ad:Airport {name: "DAY"})
+RETURN connection, ad
+UNION
+MATCH connection=(ao:Airport {name: "LAX"})<-[:ORIGIN]-(:Flight)-[:DESTINATION]->(p1:Airport)<-[:ORIGIN]-(:Flight)-[:DESTINATION]->(ad:Airport {name: "DAY"})
+RETURN connection, ad
+UNION
+MATCH connection=(ao:Airport {name: "LAX"})<-[:ORIGIN]-(:Flight)-[:DESTINATION]->(p1:Airport)<-[:ORIGIN]-(:Flight)-[:DESTINATION]->(p2:Airport)<-[:ORIGIN]-(:Flight)-[:DESTINATION]->(ad:Airport {name: "DAY"})
+RETURN connection, ad
+}
+CALL {
+WITH connection
+UNWIND nodes(connection) AS flight
+MATCH (flight:Flight)<-[:ASSIGN]-(ticket:Ticket {class:"economy"})
+WITH connection, sum(ticket.price) as ticketPrice
+RETURN ticketPrice
+UNION
+WITH connection
+UNWIND nodes(connection) AS flight
+MATCH (flight:Flight)<-[:ASSIGN]-(ticket:Ticket {class:"business"})
+WITH connection, sum(ticket.price) as ticketPrice
+RETURN ticketPrice
+UNION
+WITH connection
+UNWIND nodes(connection) AS flight
+MATCH (flight:Flight)<-[:ASSIGN]-(ticket:Ticket {class:"firstClass"})
+WITH connection, sum(ticket.price) as ticketPrice
+RETURN ticketPrice
+}
+RETURN connection, ticketPrice
+ORDER BY ticketPrice
+LIMIT 1
+
+6.
+CALL {
+MATCH connection=(ao:Airport {name: "LAX"})<-[:ORIGIN]-(:Flight)-[:DESTINATION]->(ad:Airport {name: "DAY"})
+RETURN connection, ad
+UNION
+MATCH connection=(ao:Airport {name: "LAX"})<-[:ORIGIN]-(:Flight)-[:DESTINATION]->(p1:Airport)<-[:ORIGIN]-(:Flight)-[:DESTINATION]->(ad:Airport {name: "DAY"})
+RETURN connection, ad
+UNION
+MATCH connection=(ao:Airport {name: "LAX"})<-[:ORIGIN]-(:Flight)-[:DESTINATION]->(p1:Airport)<-[:ORIGIN]-(:Flight)-[:DESTINATION]->(p2:Airport)<-[:ORIGIN]-(:Flight)-[:DESTINATION]->(ad:Airport {name: "DAY"})
+RETURN connection, ad
+}
+CALL {
+WITH connection
+UNWIND nodes(connection) AS flight
+MATCH (flight:Flight)<-[:ASSIGN]-(ticket:Ticket {class:"business"})
+WITH connection, sum(ticket.price) as ticketPrice
+RETURN ticketPrice
+}
+RETURN connection, ticketPrice
+ORDER BY ticketPrice
+LIMIT 1
+
+7.
+
+8.
+CALL {
+MATCH connection=(ao:Airport)<-[:ORIGIN]-(:Flight)-[:DESTINATION]->(p1:Airport)<-[:ORIGIN]-(:Flight)-[:DESTINATION]->(ad:Airport)
+WHERE ao.name <> ad.name
+RETURN connection, ad
+}
+CALL {
+WITH connection
+UNWIND nodes(connection) AS flight
+MATCH (flight:Flight)<-[:ASSIGN]-(ticket:Ticket {class:"economy"})
+WITH connection, sum(ticket.price) as ticketPrice
+RETURN ticketPrice
+UNION
+WITH connection
+UNWIND nodes(connection) AS flight
+MATCH (flight:Flight)<-[:ASSIGN]-(ticket:Ticket {class:"business"})
+WITH connection, sum(ticket.price) as ticketPrice
+RETURN ticketPrice
+UNION
+WITH connection
+UNWIND nodes(connection) AS flight
+MATCH (flight:Flight)<-[:ASSIGN]-(ticket:Ticket {class:"firstClass"})
+WITH connection, sum(ticket.price) as ticketPrice
+RETURN ticketPrice
+}
+RETURN connection, ticketPrice
+ORDER BY ticketPrice
+LIMIT 1

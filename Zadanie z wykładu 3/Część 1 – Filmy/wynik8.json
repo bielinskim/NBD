@@ -1,0 +1,425 @@
+﻿[
+  {
+    "Film": {
+      "identity": 561,
+      "labels": [
+        "Movie"
+      ],
+      "properties": {
+        "tagline": "When patriots become heroes",
+        "title": "Captain America: The First Avenger",
+        "released": 2011
+      },
+      "elementId": "561"
+    },
+    "Rezyser": {
+      "identity": 562,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "born": 1950,
+        "name": "Joe Johnston"
+      },
+      "elementId": "562"
+    },
+    "Scenarzysta": {
+      "identity": 563,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "born": 1970,
+        "name": "Christopher Markus"
+      },
+      "elementId": "563"
+    },
+    "Aktor": {
+      "identity": 394,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "born": 1960,
+        "name": "Hugo Weaving"
+      },
+      "elementId": "394"
+    }
+  },
+  {
+    "Film": {
+      "identity": 561,
+      "labels": [
+        "Movie"
+      ],
+      "properties": {
+        "tagline": "When patriots become heroes",
+        "title": "Captain America: The First Avenger",
+        "released": 2011
+      },
+      "elementId": "561"
+    },
+    "Rezyser": {
+      "identity": 562,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "born": 1950,
+        "name": "Joe Johnston"
+      },
+      "elementId": "562"
+    },
+    "Scenarzysta": {
+      "identity": 563,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "born": 1970,
+        "name": "Christopher Markus"
+      },
+      "elementId": "563"
+    },
+    "Aktor": {
+      "identity": 567,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "born": 1948,
+        "name": "Samuel L. Jackson"
+      },
+      "elementId": "567"
+    }
+  },
+  {
+    "Film": {
+      "identity": 561,
+      "labels": [
+        "Movie"
+      ],
+      "properties": {
+        "tagline": "When patriots become heroes",
+        "title": "Captain America: The First Avenger",
+        "released": 2011
+      },
+      "elementId": "561"
+    },
+    "Rezyser": {
+      "identity": 562,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "born": 1950,
+        "name": "Joe Johnston"
+      },
+      "elementId": "562"
+    },
+    "Scenarzysta": {
+      "identity": 563,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "born": 1970,
+        "name": "Christopher Markus"
+      },
+      "elementId": "563"
+    },
+    "Aktor": {
+      "identity": 566,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "born": 1981,
+        "name": "Chris Evans"
+      },
+      "elementId": "566"
+    }
+  },
+  {
+    "Film": {
+      "identity": 561,
+      "labels": [
+        "Movie"
+      ],
+      "properties": {
+        "tagline": "When patriots become heroes",
+        "title": "Captain America: The First Avenger",
+        "released": 2011
+      },
+      "elementId": "561"
+    },
+    "Rezyser": {
+      "identity": 562,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "born": 1950,
+        "name": "Joe Johnston"
+      },
+      "elementId": "562"
+    },
+    "Scenarzysta": {
+      "identity": 564,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "born": 1970,
+        "name": "Stephen McFeely"
+      },
+      "elementId": "564"
+    },
+    "Aktor": {
+      "identity": 394,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "born": 1960,
+        "name": "Hugo Weaving"
+      },
+      "elementId": "394"
+    }
+  },
+  {
+    "Film": {
+      "identity": 561,
+      "labels": [
+        "Movie"
+      ],
+      "properties": {
+        "tagline": "When patriots become heroes",
+        "title": "Captain America: The First Avenger",
+        "released": 2011
+      },
+      "elementId": "561"
+    },
+    "Rezyser": {
+      "identity": 562,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "born": 1950,
+        "name": "Joe Johnston"
+      },
+      "elementId": "562"
+    },
+    "Scenarzysta": {
+      "identity": 564,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "born": 1970,
+        "name": "Stephen McFeely"
+      },
+      "elementId": "564"
+    },
+    "Aktor": {
+      "identity": 567,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "born": 1948,
+        "name": "Samuel L. Jackson"
+      },
+      "elementId": "567"
+    }
+  },
+  {
+    "Film": {
+      "identity": 561,
+      "labels": [
+        "Movie"
+      ],
+      "properties": {
+        "tagline": "When patriots become heroes",
+        "title": "Captain America: The First Avenger",
+        "released": 2011
+      },
+      "elementId": "561"
+    },
+    "Rezyser": {
+      "identity": 562,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "born": 1950,
+        "name": "Joe Johnston"
+      },
+      "elementId": "562"
+    },
+    "Scenarzysta": {
+      "identity": 564,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "born": 1970,
+        "name": "Stephen McFeely"
+      },
+      "elementId": "564"
+    },
+    "Aktor": {
+      "identity": 566,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "born": 1981,
+        "name": "Chris Evans"
+      },
+      "elementId": "566"
+    }
+  },
+  {
+    "Film": {
+      "identity": 561,
+      "labels": [
+        "Movie"
+      ],
+      "properties": {
+        "tagline": "When patriots become heroes",
+        "title": "Captain America: The First Avenger",
+        "released": 2011
+      },
+      "elementId": "561"
+    },
+    "Rezyser": {
+      "identity": 562,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "born": 1950,
+        "name": "Joe Johnston"
+      },
+      "elementId": "562"
+    },
+    "Scenarzysta": {
+      "identity": 565,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "born": 1913,
+        "name": "Joe Simon"
+      },
+      "elementId": "565"
+    },
+    "Aktor": {
+      "identity": 394,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "born": 1960,
+        "name": "Hugo Weaving"
+      },
+      "elementId": "394"
+    }
+  },
+  {
+    "Film": {
+      "identity": 561,
+      "labels": [
+        "Movie"
+      ],
+      "properties": {
+        "tagline": "When patriots become heroes",
+        "title": "Captain America: The First Avenger",
+        "released": 2011
+      },
+      "elementId": "561"
+    },
+    "Rezyser": {
+      "identity": 562,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "born": 1950,
+        "name": "Joe Johnston"
+      },
+      "elementId": "562"
+    },
+    "Scenarzysta": {
+      "identity": 565,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "born": 1913,
+        "name": "Joe Simon"
+      },
+      "elementId": "565"
+    },
+    "Aktor": {
+      "identity": 567,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "born": 1948,
+        "name": "Samuel L. Jackson"
+      },
+      "elementId": "567"
+    }
+  },
+  {
+    "Film": {
+      "identity": 561,
+      "labels": [
+        "Movie"
+      ],
+      "properties": {
+        "tagline": "When patriots become heroes",
+        "title": "Captain America: The First Avenger",
+        "released": 2011
+      },
+      "elementId": "561"
+    },
+    "Rezyser": {
+      "identity": 562,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "born": 1950,
+        "name": "Joe Johnston"
+      },
+      "elementId": "562"
+    },
+    "Scenarzysta": {
+      "identity": 565,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "born": 1913,
+        "name": "Joe Simon"
+      },
+      "elementId": "565"
+    },
+    "Aktor": {
+      "identity": 566,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "born": 1981,
+        "name": "Chris Evans"
+      },
+      "elementId": "566"
+    }
+  }
+]

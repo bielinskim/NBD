@@ -1,0 +1,132 @@
+﻿[
+  {
+    "hugoWeavingDirectors": {
+      "identity": 5,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "born": 1967,
+        "name": "Lilly Wachowski"
+      },
+      "elementId": "5"
+    }
+  },
+  {
+    "hugoWeavingDirectors": {
+      "identity": 6,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "born": 1965,
+        "name": "Lana Wachowski"
+      },
+      "elementId": "6"
+    }
+  },
+  {
+    "hugoWeavingDirectors": {
+      "identity": 5,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "born": 1967,
+        "name": "Lilly Wachowski"
+      },
+      "elementId": "5"
+    }
+  },
+  {
+    "hugoWeavingDirectors": {
+      "identity": 6,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "born": 1965,
+        "name": "Lana Wachowski"
+      },
+      "elementId": "6"
+    }
+  },
+  {
+    "hugoWeavingDirectors": {
+      "identity": 5,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "born": 1967,
+        "name": "Lilly Wachowski"
+      },
+      "elementId": "5"
+    }
+  },
+  {
+    "hugoWeavingDirectors": {
+      "identity": 6,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "born": 1965,
+        "name": "Lana Wachowski"
+      },
+      "elementId": "6"
+    }
+  },
+  {
+    "hugoWeavingDirectors": {
+      "identity": 108,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "born": 1965,
+        "name": "Tom Tykwer"
+      },
+      "elementId": "108"
+    }
+  },
+  {
+    "hugoWeavingDirectors": {
+      "identity": 5,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "born": 1967,
+        "name": "Lilly Wachowski"
+      },
+      "elementId": "5"
+    }
+  },
+  {
+    "hugoWeavingDirectors": {
+      "identity": 6,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "born": 1965,
+        "name": "Lana Wachowski"
+      },
+      "elementId": "6"
+    }
+  },
+  {
+    "hugoWeavingDirectors": {
+      "identity": 25,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "born": 1967,
+        "name": "James Marshall"
+      },
+      "elementId": "25"
+    }
+  }
+]
